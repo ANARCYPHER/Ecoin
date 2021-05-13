@@ -106,8 +106,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "0:17236",
-  "0:18236",
+  "18.188.116.219:17236",
+  "18.217.103.27:18236",
 };
 
 struct CheckpointData {
