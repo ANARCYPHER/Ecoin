@@ -29,14 +29,14 @@ Name must be specified twice:
 
 Example: 
 ```
-const char CRYPTONOTE_NAME[] = "furiouscoin";
+const char CRYPTONOTE_NAME[] = "ecoin";
 ```
 
 **2. in src/CMakeList.txt file** - set_property(TARGET daemon PROPERTY OUTPUT_NAME "YOURCOINNAME**d**")
 
 Example: 
 ```
-set_property(TARGET daemon PROPERTY OUTPUT_NAME "furiouscoind")
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "ecoind")
 ```
 
 **Note:** You should also change a repository name.
@@ -187,7 +187,7 @@ Run your daemon with `--print-genesis-tx` argument. It will print out the genesi
 
 Example:
 ```
-furiouscoind --print-genesis-tx
+ecoind --print-genesis-tx
 ```
 
 
@@ -244,3 +244,5 @@ cmake -G "Visual Studio 12 Win64" ..
 
 And then do Build.
 Good luck!
+
+Caesar Versatti
